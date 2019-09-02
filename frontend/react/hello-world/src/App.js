@@ -3,10 +3,9 @@ import Hello from './Hello'
 import './App.css';
 
 class App extends React.Component{
-  hello = "สวัสดีชาวโลก";
 
   render () {
-    return (<Hello />);
+    return (<Hello name="hello"/>);
   }
 }
 
