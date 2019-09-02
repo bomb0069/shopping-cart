@@ -1,1 +1,8 @@
+# Mac OS
 .DS_Store
+
+
+# Robot Framework Report
+log.html
+report.html
+output.xml
