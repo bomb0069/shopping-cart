@@ -11,7 +11,7 @@ class Hello extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:8080/api/v1/hello/1")
+    fetch("http://localhost:5000/api/v1/hello/1")
       .then(res => res.json())
       .then(
         (result) => {
