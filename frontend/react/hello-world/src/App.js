@@ -1,14 +1,12 @@
 import React from 'react';
+import Hello from './Hello'
 import './App.css';
 
 class App extends React.Component{
   hello = "สวัสดีชาวโลก";
 
   render () {
-    return (
-      <div>{this.hello}
-      </div>
-    );
+    return (<Hello />);
   }
 }
 
